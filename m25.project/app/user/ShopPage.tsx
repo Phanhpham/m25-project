@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
-import ShopSection from "../components/ShopSection";
+import Header from "../components/Header/page";
+import ShopSection from "../components/ShopSection/page";
 import InfoSection from "../components/InfoSection";
 
 export default function ShopPage() {

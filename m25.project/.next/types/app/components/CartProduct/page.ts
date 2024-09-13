@@ -1,8 +1,8 @@
 // File: /Users/used/Desktop/phanh.m25.prj/project-m25-phuonganh/m25.project/app/components/CartProduct/page.tsx
-import * as entry from '../../../../../app/components/CartProduct/page.js'
+import * as entry from '../../../../../app/components/CartProduct/[id]/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/components/CartProduct/page.js')
+type TEntry = typeof import('../../../../../app/components/CartProduct/[id]/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

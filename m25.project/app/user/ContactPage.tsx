@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/page";
 import Contact from "../components/Contact";
 import InfoSection from "../components/InfoSection";
 

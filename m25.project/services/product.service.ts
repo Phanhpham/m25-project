@@ -1,7 +1,15 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import { list } from "firebase/storage";
 
-
+// api render chi tiet 
+export const getProductById: any = createAsyncThunk(
+    "products/getProductById",
+    async (id: number) => {
+        const response = await axios.get(` http://localhost:8080/product/${id}`)
+        return response.data
+    }
+)
 // api tat ca sp
 export const getAllProduct:any =createAsyncThunk(
     "user/getAllProduct",
@@ -28,3 +36,4 @@ export const updateProduct:any=createAsyncThunk("product/updateProduct",async(pr
             let response =await axios.put (`http://localhost:8080/product/${product.id}`,product);
             return response.data
             })
+

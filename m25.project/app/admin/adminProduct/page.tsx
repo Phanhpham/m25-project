@@ -278,6 +278,7 @@ export default function page() {
                     </span>
                   )}
                 </Form.Group>
+
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -314,6 +315,7 @@ export default function page() {
                     </span>
                   )}
                 </Form.Group>
+                
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlInput1"
@@ -420,6 +422,19 @@ export default function page() {
                       {error.stock}
                     </span>
                   )}
+                </Form.Group>
+                <Form.Group
+                  className="mb-3"
+                  controlId="exampleForm.ControlInput1"
+                >
+                  <Form.Label>Chon danh muc</Form.Label>
+                  <select>
+                    <option value="danh muc">trang suc</option>
+                    <option value="danh muc">gau bong</option>
+                    <option value="danh muc">packet</option>
+                    <option value="danh muc">brush and comb</option>
+                  </select>
+                 
                 </Form.Group>
                 <Form.Group
                   className="mb-3"

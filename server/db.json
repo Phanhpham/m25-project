@@ -81,7 +81,7 @@
       "id": 1,
       "productname": "ahe ring",
       "img": "https://i.pinimg.com/564x/57/0a/c5/570ac5b3e2aab93c5875d19e26f0ed3e.jpg",
-      "price": "130.000đ",
+      "price": 130000,
       "stock": 120,
       "created_at": "08-12-2024 11:35:21",
       "updated_at": ""
@@ -90,7 +90,7 @@
       "id": 2,
       "productname": "The bear",
       "img": "https://i.pinimg.com/564x/38/a9/9e/38a99ef27007cfae409d65c0b935c9d8.jpg",
-      "price": "140.000đ",
+      "price": 140000,
       "stock": 180,
       "created_at": "03-12-2024 11:35:21",
       "updated_at": ""
@@ -98,7 +98,7 @@
     {
       "productname": "Creative Gift Basket",
       "img": "https://i.pinimg.com/564x/f4/48/c8/f448c85516780f0a1e2c012ab3136dcd.jpg",
-      "price": "323.000đ",
+      "price": 323000,
       "stock": "123",
       "created_at": "10/09/2024",
       "updated_at": "",
@@ -107,7 +107,7 @@
     {
       "productname": "Creative Gift Basket",
       "img": "https://i.pinimg.com/564x/98/f5/40/98f540e3d72584feb075bf74b157aaa3.jpg",
-      "price": "403.000đ",
+      "price": 443000,
       "stock": "123",
       "created_at": "12/09/2024",
       "updated_at": "",
@@ -116,7 +116,7 @@
     {
       "productname": "Stainless Steel Heart",
       "img": "https://i.pinimg.com/564x/21/5e/89/215e89db339eadb755f91724bb780054.jpg",
-      "price": "500.000đ",
+      "price": 500000,
       "stock": "123",
       "created_at": "12/09/2024",
       "updated_at": "",
@@ -125,7 +125,7 @@
     {
       "productname": "Brush and comb set",
       "img": "https://i.pinimg.com/564x/f6/85/e5/f685e509a8766450e82ba7969a371554.jpg",
-      "price": "1000.000.000đ",
+      "price": 900000,
       "stock": "63",
       "created_at": "12/02/2024",
       "updated_at": "",
@@ -134,7 +134,7 @@
     {
       "productname": "Stuffed Animal Ever",
       "img": "https://i.pinimg.com/564x/f5/ba/8f/f5ba8f283bf569aa889bd4add026aa96.jpg",
-      "price": "245.000đ",
+      "price": 245000,
       "stock": "633",
       "created_at": "12/12/2024",
       "updated_at": "",
@@ -143,7 +143,7 @@
     {
       "productname": "Babyshower cadeau pakket",
       "img": "https://i.pinimg.com/564x/23/fd/00/23fd009ed38ffecfa8cf127288774a1f.jpg",
-      "price": "345.000đ",
+      "price": 345000,
       "stock": "633",
       "created_at": "12/02/2024",
       "updated_at": "",
@@ -162,6 +162,31 @@
     {
       "name": "Brush and comb",
       "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "idUser": 1,
+      "product": {
+        "productname": "The bear",
+        "img": "https://i.pinimg.com/564x/38/a9/9e/38a99ef27007cfae409d65c0b935c9d8.jpg",
+        "price": 140000,
+        "stock": 1,
+        "id": 2
+      },
+      "id": 1
+    },
+    {
+      "idUser": "1",
+      "product": {
+        "productname": "ahe ring",
+        "img": "https://i.pinimg.com/564x/57/0a/c5/570ac5b3e2aab93c5875d19e26f0ed3e.jpg",
+        "price": 130000,
+        "stock": 1,
+        "id": 1
+      },
+      "id": 2,
+      "stock": 1
     }
   ]
 }

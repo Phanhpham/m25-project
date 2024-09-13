@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/page": [
+    "/components/Login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/css/app/components/Login/page.css",
+      "static/chunks/app/components/Login/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,55 +12,37 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/admin/adminProduct/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/admin/adminProduct/page.js"
+      "static/chunks/app/page.js"
     ],
-    "/admin/adminCategory/page": [
+    "/components/Detail/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/admin/adminCategory/page.js"
+      "static/css/app/components/Detail/[id]/page.css",
+      "static/chunks/app/components/Detail/[id]/page.js"
     ],
     "/admin/adminUser/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/admin/adminUser/page.js"
     ],
-    "/components/Detail/page": [
+    "/admin/adminCategory/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/components/Detail/page.css",
-      "static/chunks/app/components/Detail/page.js"
+      "static/chunks/app/admin/adminCategory/page.js"
     ],
-    "/components/CartProduct/page": [
+    "/admin/adminProduct/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/components/CartProduct/page.css",
-      "static/chunks/app/components/CartProduct/page.js"
+      "static/chunks/app/admin/adminProduct/page.js"
     ],
-    "/components/register/page": [
+    "/components/CartProduct/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/components/register/page.css",
-      "static/chunks/app/components/register/page.js"
-    ],
-    "/admin/adminHome/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/admin/adminHome/page.css",
-      "static/chunks/app/admin/adminHome/page.js"
-    ],
-    "/components/Login/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/components/Login/page.css",
-      "static/chunks/app/components/Login/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/components/CartProduct/[id]/page.css",
+      "static/chunks/app/components/CartProduct/[id]/page.js"
     ]
   }
 }

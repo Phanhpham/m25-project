@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/page";
 import WhySection from "../components/WhySection";
 import InfoSection from "../components/InfoSection";
 
